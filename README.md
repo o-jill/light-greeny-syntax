@@ -2,4 +2,4 @@
 
 A light greeny theme.
 
-![A screenshot of my theme](https://f.cloud.github.com/assets/69169/2289498/4c3cb0ec-a009-11e3-8dbd-077ee11741e5.gif)
+![A screenshot of my theme](https://cloud.githubusercontent.com/assets/1939872/8446759/e5beb27c-1fe9-11e5-8b06-bdec47e37edd.png)
