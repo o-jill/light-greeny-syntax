@@ -1,9 +1,5 @@
 @import "syntax-variables";
 
-atom-text-editor::shadow .cursor-line .indent-guide {
-  box-shadow: inset 1px 0 0 red;
-}
-
 atom-text-editor, :host {
   background-color:@syntax-background-color;
   color: @syntax-text-color;
@@ -19,12 +15,11 @@ atom-text-editor, :host {
 
   .invisible-character {
     color: @syntax-invisible-character-color;
-    border-style: dashed;
   }
 
   .gutter {
-    background-color: @mywhite;//@syntax-gutter-background-color;
-    color: @myblack;//@syntax-gutter-text-color;
+    background-color: @syntax-gutter-background-color;
+    color: @syntax-gutter-text-color;
 
     .line-number {
       &.cursor-line {
@@ -74,8 +69,9 @@ atom-text-editor .search-results .marker.current-result .region,
 
 .entity {
   &.name.type {
-    color: @light-orange;
-    text-decoration: underline;
+      color: @orange;
+//      color: @light-orange;
+//    text-decoration: underline;
   }
 
   &.other.inherited-class {
