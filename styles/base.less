@@ -67,70 +67,70 @@ atom-text-editor .search-results .marker.current-result .region {
   color: @green;
 }
 
-.entity {
-  &.name.type {
+.syntax--entity {
+  &.syntax--name.syntax--type {
       color: @orange;
 //      color: @light-orange;
 //    text-decoration: underline;
   }
 
-  &.other.inherited-class {
+  &.syntax--other.syntax--inherited-class {
     color: @green;
   }
 }
 
-.keyword {
+.syntax--keyword {
   color: @purple;
 
-  &.control {
+  &.syntax--control {
     color: @blue;
   }
 
-  &.operator {
+  &.syntax--operator {
     color: @syntax-text-color;
   }
 
-  &.other.special-method {
+  &.syntax--other.syntax--special-method {
     color: @blue;
   }
 
-  &.other.unit {
+  &.syntax--other.syntax--unit {
     color: @orange;
   }
 }
 
-.storage {
+.syntax--storage {
   color: @purple;
 }
 
 .syntax--constant {
   color: @orange;
 
-  &.character.escape {
+  &.syntax--character.syntax--escape {
     color: @cyan;
   }
 
-  &.numeric {
+  &.syntax--numeric {
     color: @orange;
   }
 
-  &.other.color {
+  &.syntax--other.syntax--color {
     color: @cyan;
   }
 
-  &.other.symbol {
+  &.syntax--other.syntax--symbol {
     color: @green;
   }
 }
 
-.variable {
+.syntax--variable {
   color: @red;
 
-  &.interpolation {
+  &.syntax--interpolation {
     color: darken(@red, 10%);
   }
 
-  &.parameter.function {
+  &.syntax--parameter.syntax--function {
     color: @syntax-text-color;
   }
 }
@@ -158,29 +158,29 @@ atom-text-editor .search-results .marker.current-result .region {
 }
 
 .syntax--punctuation {
-  &.definition {
-    &.comment {
+  &.syntax--definition {
+    &.syntax--comment {
       color: @green;
     }
 
-    &.string,
+    &.syntax--string,
     &.variable,
     &.parameters,
     &.array {
       color: @syntax-text-color;
     }
 
-    &.heading,
+    &.syntax--heading,
     &.identity {
       color: @blue;
     }
 
-    &.bold {
+    &.syntax--bold {
       color: @light-orange;
       font-weight: bold;
     }
 
-    &.italic {
+    &.syntax--italic {
       color: @purple;
       font-style: italic;
     }
