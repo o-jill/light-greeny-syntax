@@ -1,3 +1,6 @@
+## 0.2.1 - minor release to remove deprecated syntax.
+* [WIP] add "syntax--" to support atom v1.13.
+
 ## 0.2.0 - 2nd Release
 * decorating indent-guides was stopped.
   please use othe packages to decorate, such as [indent-guid-improved](https://atom.io/packages/indent-guide-improved).
