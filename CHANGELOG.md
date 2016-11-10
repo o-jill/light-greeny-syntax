@@ -1,3 +1,6 @@
+## 0.3.3 - minor release to remove deprecated syntax.
+* [WIP] add "syntax--" to support atom v1.13. vol.4
+
 ## 0.3.2 - minor release to remove deprecated syntax.
 * [WIP] add "syntax--" to support atom v1.13. vol.3
 
