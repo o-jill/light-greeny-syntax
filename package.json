@@ -1,7 +1,7 @@
 {
   "name": "light-greeny-syntax",
   "theme": "syntax",
-  "version": "0.3.4",
+  "version": "0.4.0",
   "description": "A light greeny theme.",
   "keywords": [
     "syntax",
@@ -10,6 +10,6 @@
   "repository": "https://github.com/o-jill/light-greeny-syntax",
   "license": "public domain",
   "engines": {
-    "atom": ">=0.174.0 <2.0.0"
+    "atom": ">=1.13.0 <2.0.0"
   }
 }

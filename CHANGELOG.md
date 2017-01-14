@@ -1,3 +1,6 @@
+## 0.4.0 - 4rd Release
+* fixed gutter colors.
+
 ## 0.3.4 - minor release to remove deprecated syntax.
 * add "syntax--" to support atom v1.13. vol.5
 
